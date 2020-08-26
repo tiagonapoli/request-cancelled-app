@@ -1,0 +1,34 @@
+{
+  "memory": 256,
+  "ttl": 5,
+  "timeout": 2,
+  "minReplicas": 1,
+  "maxReplicas": 1,
+  "routes": {
+    "streamProvider": {
+      "path": "/_v/provide-stream",
+      "public": false,
+      "smartcache": false
+    },
+    "consumerGetStream": {
+      "path": "/_v/consume-get-stream",
+      "public": false,
+      "smartcache": false
+    },
+    "consumerStreamFinished": {
+      "path": "/_v/consume-stream-finished",
+      "public": false,
+      "smartcache": false
+    },
+    "consumerAssetServerCacheWithGetStream": {
+      "path": "/_v/asset-server-get-stream",
+      "public": false,
+      "smartcache": false
+    },
+    "consumerAssetServerDiskCache": {
+      "path": "/_v/asset-server-disk-cache",
+      "public": false,
+      "smartcache": false
+    }
+  }
+}

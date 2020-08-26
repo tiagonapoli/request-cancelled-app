@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "get-stream": "^5.1.0",
+    "is-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/jest": "^24.0.25",
+    "@types/node": "12.x",
+    "@vtex/api": "6.33.0",
+    "typescript": "3.8.3"
+  }
+}
